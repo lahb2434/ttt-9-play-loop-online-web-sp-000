@@ -39,8 +39,8 @@ end
 def play(board)
   loop do board.each {|i| i != "X" || i != "O"}
      turn(board)
-  else
-    "winnnnner"
   end
-end
+   puts "winnnnner"
+  end
+
  
