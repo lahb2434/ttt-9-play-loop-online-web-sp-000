@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
- board.each(|i| )
+ board.each(|i| i == ("X" || "O"))
    display_board(board)
   end
 end  
