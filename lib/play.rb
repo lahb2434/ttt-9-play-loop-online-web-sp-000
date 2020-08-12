@@ -42,5 +42,5 @@ def play(board)
     display_board(board)
 else
   "winnnnner"
-  end
-end  
+end
+ 
