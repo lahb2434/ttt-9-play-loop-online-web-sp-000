@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
- until board.each == "X" || board.each == "O"
+ until board.include?("X" || "O")
    turn(board)
    display_board(board)
   end
