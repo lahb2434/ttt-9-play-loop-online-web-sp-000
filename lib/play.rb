@@ -37,9 +37,10 @@ end
 
 # Define your play method below
 def play(board)
-  counter = 0 
-  until counter == 10
-    turn(board)
-    counter += 1
+ until board.each == "X" || board.each == "O"
+   turn(board)
+   display_board(board)
+  else
+   puts "won"
   end
 end  
