@@ -37,8 +37,7 @@ end
 
 # Define your play method below
 def play(board)
- until 
-   turn(board)
+ board.each(|i| )
    display_board(board)
   end
 end  
