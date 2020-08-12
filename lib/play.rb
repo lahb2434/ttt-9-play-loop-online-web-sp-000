@@ -37,7 +37,10 @@ end
 
 # Define your play method below
 def play(board)
- board.each(|i| i == ("X" || "O"))
-   display_board(board)
+ if board.each(|i| i != ("X" || "O"))
+    turn(board)
+    display_board(board)
+else
+  "winnnnner"
   end
 end  
