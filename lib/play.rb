@@ -37,8 +37,10 @@ end
 
 # Define your play method below
 def play(board)
-  while board.each {|i| i != " "}
+  playtime = 0
+  while playtime < 9 
      turn(board)
+     playtime +=1
   end
    puts "winnnnner"
   end
