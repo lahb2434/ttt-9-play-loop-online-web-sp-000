@@ -40,7 +40,5 @@ def play(board)
  until board.each == "X" || board.each == "O"
    turn(board)
    display_board(board)
-  else
-   puts "won"
   end
 end  
